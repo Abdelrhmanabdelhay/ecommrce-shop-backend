@@ -5,6 +5,7 @@ Backend API for an e-commerce shop built with **Node.js** and **Express**, provi
 ---
 
 ## 📂 Project Structure
+   ```bash
 middlewares/
 ├── auth.middleware.js
 └── multer.middleware.js
@@ -28,12 +29,10 @@ modules/
 │ └── user.routes.js
 └── WebHook/
 └── WebHoo.controller.js
-
 utils/
 ├── AppError.js
 ├── sendEmail.js
 ├── socket.io.js
 └── verfiytoken.js
 
-.envCopy
-Edit
+.env
